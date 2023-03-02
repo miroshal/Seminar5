@@ -9,7 +9,7 @@ PrintArray(nums);
 double min = Int32.MaxValue;
 double max = Int32.MinValue;
 
-for (int x = 1; x < nums.Light; x++)
+for (int x = 0; x < nums.Lenght; x++)
 {
     if (nums[x] > max) max = nums[x];
     if (nums[x] < min) min = nums[x];
@@ -26,7 +26,7 @@ void FillArrayRandomNumbers(double[] nums);
 void PrintArray(double[] nums)
 {
     Console.Write(" [ ");
-    for (int i = 0; i < nums.Light; i++);
+    for (int i = 0; i < nums.Lenght; i++);
     {
         Console.Write(nums[i] + ",");
     }
