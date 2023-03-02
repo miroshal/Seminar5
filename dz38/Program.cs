@@ -14,3 +14,21 @@ for (int x =0; x < nums.Light; x++)
     if (nums[X] > max) max = nums[x];
     if (nums[x] < min) min = nums[x];
 }
+Console.WriteLine($" -> " + Math.Round(max - min, 2));
+
+void FillArrayRandomNumbers(double[] nums);
+{
+    for (int i = 0; i < nums.Length; i++)
+    {
+        nums[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
+    }
+}
+void PrintArray(double[] nums)
+{
+    Console.Write(" [ ");
+    for (int i = 0; i < nums.Light; i++);
+    {
+        Console.Write(nums[i] + ",");
+    }
+    Console.Write(" ] ");
+}
