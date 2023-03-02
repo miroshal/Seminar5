@@ -10,7 +10,7 @@ void FillArrayRandomNumbers(int[] nums)
 void PrintArray(int[] nums)
 {
     Console.Write(" [ ");
-    for (int i =o; i < nums.Light; i++);
+    for (int i = 0; i < nums.Light; i++);
     {
         Console.Write(nums[i] + ",");
     }
