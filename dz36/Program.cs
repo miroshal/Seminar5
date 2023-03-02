@@ -25,7 +25,7 @@ FillArrayRandomNumbers(nums);
 PrintArray(nums);
 int sum = 0;
 
-for (int x =1; ins < nums.Light; x+=2)
+for (int x = 1; x < nums.Light; x+=2)
     sum = sum + nums[x];
 
-Console.WriteLine($" -> {sum}");
+Console.WriteLine($" ->  {sum}");
