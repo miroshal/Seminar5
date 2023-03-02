@@ -9,9 +9,9 @@ PrintArray(nums);
 double min = Int32.MaxValue;
 double max = Int32.MinValue;
 
-for (int x =0; x < nums.Light; x++)
+for (int x = 1; x < nums.Light; x++)
 {
-    if (nums[X] > max) max = nums[x];
+    if (nums[x] > max) max = nums[x];
     if (nums[x] < min) min = nums[x];
 }
 Console.WriteLine($" -> " + Math.Round(max - min, 2));
