@@ -2,7 +2,7 @@
 
 void FillArrayRandomNumbers(int[] nums)
 {
-    for (int i = 0; i < nums.Lenght; i++);
+    for (int i = 0; i < nums.Lenght; i++)
     {
         nums[i] = new Random().Next(1, 1000);
     }
@@ -25,7 +25,7 @@ FillArrayRandomNumbers(nums);
 PrintArray(nums);
 int sum = 0;
 
-for (int x = 1; x < nums.Lenght; x+=2)
+for (int x = 1; x < nums.Lenght; x += 2)
     sum = sum + nums[x];
 
 Console.WriteLine($" ->  {sum}");
